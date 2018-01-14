@@ -1,15 +1,15 @@
-package func;
+package func.nn;
 
-public class InputFunction extends ActivationFunction {
+import func.ActivationFunction;
+
+public class InputFunction implements ActivationFunction {
 
   public InputFunction() {}
 
-  @Override
   public Double calculate(Double input) {
     return input;
   }
 
-  @Override
   public ActivationFunction copy() {
     return new InputFunction();
   }

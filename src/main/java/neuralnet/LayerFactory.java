@@ -2,7 +2,7 @@ package neuralnet;
 
 import java.util.List;
 import func.ActivationFunction;
-import func.InputFunction;
+import func.nn.InputFunction;
 
 public class LayerFactory {
 

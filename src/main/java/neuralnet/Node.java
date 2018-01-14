@@ -4,6 +4,12 @@ import java.util.ArrayList;
 import java.util.List;
 import func.ActivationFunction;
 
+
+/**
+ * 
+ * @author Austin Bailie
+ *
+ */
 public class Node {
 
   ActivationFunction function; // Example: Sigmoid activation function.
